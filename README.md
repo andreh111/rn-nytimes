@@ -2,7 +2,7 @@
 
 ## Install Dependencies and run the application
 
-1 - Clone the repository
+1 - Clone the repository : `git clone https://github.com/andreh111/rn-nytimes.git`
 
 2 - Go to the project folder and run : `npm install`
 

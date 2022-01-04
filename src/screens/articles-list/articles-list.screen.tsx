@@ -11,7 +11,7 @@ import ArticleService from '../../services/articles.service';
 const ArticlesList: React.FC<AppNavigationProps> = ({ navigation }: AppNavigationProps) => {
     const [articles, setArticles] = useState<Article[]>([]);
     const [searchQuery, setSearchQuery] = useState<string>('');
-    const [value] = useDebounce(searchQuery, 1000);
+    const [searchValue] = useDebounce(searchQuery, 1000);
     const [page, setPage] = useState<number>(0);
     const [refreshing, setRefreshing] = useState<boolean>(false);
 
@@ -37,7 +37,7 @@ const ArticlesList: React.FC<AppNavigationProps> = ({ navigation }: AppNavigatio
     useEffect(()=>{
         setArticles([]);
         getListNews();        
-    },[value]);
+    },[searchValue]);
 
     return (
         <View testID='articles-list' style={{ flex: 1 }}>

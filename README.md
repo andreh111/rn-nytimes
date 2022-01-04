@@ -1,4 +1,5 @@
 # ny-times react native app
+This app displays articles from NY Times News Api and it is written in Typescript.
 
 ## Android Screenshots
 <div style="display:flex;flex-direction:row">
@@ -51,3 +52,14 @@ Build the iOS app using:
 Start the test using:
 
 `detox test -c ios.sim.release`
+
+
+## 3rd Party Libraries used
+
+`use-debounce`: A library used that is a custom hook used to debounce value when searching an article. Link: https://github.com/xnimorz/use-debounce
+
+`axios`: To make http calls
+
+`react-native-vector-icons`: used to display icons.
+
+`react-navigation/native`: used for app navigation purposes.

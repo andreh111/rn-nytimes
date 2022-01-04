@@ -4,12 +4,12 @@
 
 1 - Clone the repository
 
-2 - Go to the project folder and run : npm install
+2 - Go to the project folder and run : `npm install`
 
-3 - Go to the ios folder and run: pod install
+3 - Go to the ios folder and run: `pod install`
 
-4 - To Run the application on IOS run: npx react-native run-ios
-  - To Run the application on Android run: npx react-native run-android
+4 - To Run the application on IOS run: `npx react-native run-ios`
+  - To Run the application on Android run: `npx react-native run-android`
 
 
 ## To run unit tests

@@ -16,7 +16,7 @@
 
 Run following command:
 
-npm run test
+`npm run test`
 
 
 ## To Run E2E Testing
@@ -27,8 +27,8 @@ Run the following commands:
 For testing on iOS
 Build the iOS app using:
 
-detox build -c ios.sim.release
+`detox build -c ios.sim.release`
 
 Start the test using:
 
-detox test -c ios.sim.release
+`detox test -c ios.sim.release`

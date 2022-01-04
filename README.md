@@ -44,6 +44,8 @@ Run following command:
 Need first to install Detox globally
 `npm install -g detox-cli`
 
+for more details: https://wix.github.io/Detox/docs/introduction/getting-started/
+
 Run the following commands: 
 
 

@@ -1,5 +1,6 @@
 # ny-times react native app
 
+
 ## Install Dependencies and run the application
 
 1 - Clone the repository : `git clone https://github.com/andreh111/rn-nytimes.git`

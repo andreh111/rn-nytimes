@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         margin: 10,
         height: 50,
         borderRadius: 10,
-        padding: 5
+        padding:1
     },
     searchInput: {
         fontSize: 18,

@@ -41,6 +41,9 @@ Run following command:
 
 ## To Run E2E Testing
 
+Need first to install Detox globally
+`npm install -g detox-cli`
+
 Run the following commands: 
 
 

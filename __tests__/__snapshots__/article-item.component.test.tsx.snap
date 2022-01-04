@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search-input.component test search-input.component should match snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "borderColor": "black",
+      "borderRadius": 10,
+      "elevation": 8,
+      "flex": 1,
+      "flexDirection": "row",
+      "margin": 10,
+      "opacity": 1,
+      "padding": 20,
+      "shadowColor": "black",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.26,
+      "shadowRadius": 6,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/article.png",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 30,
+        "height": 60,
+        "marginRight": 10,
+        "width": 60,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      'Spamalot' Receives 14 Shots At a Tony
+    </Text>
+    <Text>
+      Monty Python's Spamalot leads field with 14 Tony Award nominations, including be...
+    </Text>
+  </View>
+</View>
+`;
